@@ -32,7 +32,7 @@ class MyRSS2(PyRSS2Gen.RSSItem):
         PyRSS2Gen.RSSItem.publish(self, handler)
 
     def publish_extensions(self, handler):
-        handler._write(u'<%s><![CDATA[%s]]></%s>' % ('description', self.do_not_autooutput_description, 'description'))
+        handler._write('<%s><![CDATA[%s]]></%s>' % ('description', self.do_not_autooutput_description, 'description'))
 
 
 def extract_releases(html):
@@ -67,18 +67,18 @@ def data_to_description(data):
 
 if __name__ == '__main__':
     if len(sys.argv) <2:
-        print "Error. You must set API_URL"
+        print("Error. You must set API_URL")
         sys.exit(2)
 
     api_url = sys.argv[1] + '/'
-    print "RSS feed url: {}".format(api_url)
+    print("RSS feed url: {}".format(api_url))
     
     items = []
     pathToReleaseNotes = 'chsdi/static/doc/build/releasenotes/index.html'
     try:
         releases = extract_releases(pathToReleaseNotes)
     except IOError as e:
-        print '%s does nor exist' % pathToReleaseNotes
+        print('%s does nor exist' % pathToReleaseNotes)
         raise IOError(e)
 
     i = 0
