@@ -1592,6 +1592,12 @@ msgstr "Poste de comptage"
 msgid "ch.astra.strassenverkehrszaehlung-uebergeordnet"
 msgstr "Circulation routière - principal"
 
+msgid "ch.astra.strassenverkehrszaehlung-uebergeordnet.mlocname"
+msgstr "Poste de comptage"
+
+msgid "ch.astra.strassenverkehrszaehlung-uebergeordnet.mlocnr"
+msgstr "Numéro"
+
 msgid "ch.astra.unfaelle-personenschaeden_alle"
 msgstr "Accidents avec dommages corporels"
 
@@ -2497,6 +2503,42 @@ msgstr "Partie"
 
 msgid "ch.bafu.erosion-gruenland_bodenabtrag"
 msgstr "Risque d'érosion prairies perm."
+
+msgid "ch.bafu.erosion-gruenland_bodenabtrag_apr"
+msgstr "Risque d'érosion prairies perm. avr."
+
+msgid "ch.bafu.erosion-gruenland_bodenabtrag_aug"
+msgstr "Risque d'érosion prairies perm. août"
+
+msgid "ch.bafu.erosion-gruenland_bodenabtrag_dez"
+msgstr "Risque d'érosion prairies perm. déc."
+
+msgid "ch.bafu.erosion-gruenland_bodenabtrag_feb"
+msgstr "Risque d'érosion prairies perm. fév."
+
+msgid "ch.bafu.erosion-gruenland_bodenabtrag_jan"
+msgstr "Risque d'érosion prairies perm. jan."
+
+msgid "ch.bafu.erosion-gruenland_bodenabtrag_jul"
+msgstr "Risque d'érosion prairies perm. juil."
+
+msgid "ch.bafu.erosion-gruenland_bodenabtrag_jun"
+msgstr "Risque d'érosion prairies perm. juin"
+
+msgid "ch.bafu.erosion-gruenland_bodenabtrag_mai"
+msgstr "Risque d'érosion prairies perm. mai"
+
+msgid "ch.bafu.erosion-gruenland_bodenabtrag_mrz"
+msgstr "Risque d'érosion prairies perm. mar."
+
+msgid "ch.bafu.erosion-gruenland_bodenabtrag_nov"
+msgstr "Risque d'érosion prairies perm. nov."
+
+msgid "ch.bafu.erosion-gruenland_bodenabtrag_okt"
+msgstr "Risque d'érosion prairies perm. oct."
+
+msgid "ch.bafu.erosion-gruenland_bodenabtrag_sep"
+msgstr "Risque d'érosion prairies perm. sep."
 
 msgid "ch.bafu.eua"
 msgstr "OFEV / AEE"
@@ -4838,6 +4880,9 @@ msgstr "District franc"
 msgid "ch.bafu.wrz-jagdbanngebiete_select.kanton"
 msgstr "Canton"
 
+msgid "ch.bafu.wrz-jagdbanngebiete_select.ref_kanton"
+msgstr "Information online"
+
 msgid "ch.bafu.wrz-jagdbanngebiete_select.schutzs_de"
 msgstr "Numéro de l’objet"
 
@@ -4856,8 +4901,14 @@ msgstr "Zones de tranquillité"
 msgid "ch.bafu.wrz-wildruhezonen_portal.beschlussjahr"
 msgstr "Année de décision"
 
+msgid "ch.bafu.wrz-wildruhezonen_portal.einschraenkung"
+msgstr "Limitation"
+
 msgid "ch.bafu.wrz-wildruhezonen_portal.kanton"
 msgstr "Canton"
+
+msgid "ch.bafu.wrz-wildruhezonen_portal.ref_kanton"
+msgstr "Information online"
 
 msgid "ch.bafu.wrz-wildruhezonen_portal.schutzs_de"
 msgstr "Numéro de l’objet"
@@ -4867,6 +4918,9 @@ msgstr "Numéro de l’objet"
 
 msgid "ch.bafu.wrz-wildruhezonen_portal.schutzs_it"
 msgstr "Numéro de l’objet"
+
+msgid "ch.bafu.wrz-wildruhezonen_portal.typ"
+msgstr "Type de itinéraire"
 
 msgid "ch.bafu.wrz-wildruhezonen_portal.wrz_name"
 msgstr "Zone de tranquillité"
@@ -10220,16 +10274,16 @@ msgstr "Numéro de la feuille 1:50000"
 msgid "ch.swisstopo.private"
 msgstr "swisstopo, prv"
 
-msgid "ch.swisstopo.schneeschuhwanderland"
+msgid "ch.swisstopo.schneeschuhwandern"
 msgstr "Randonnées en raquettes"
 
-msgid "ch.swisstopo.schneeschuhwanderland.attribut_c"
+msgid "ch.swisstopo.schneeschuhwandern.attribut_c"
 msgstr "Itinéraires"
 
-msgid "ch.swisstopo.schneeschuhwanderland.attribut_d"
+msgid "ch.swisstopo.schneeschuhwandern.attribut_d"
 msgstr "N°"
 
-msgid "ch.swisstopo.schneeschuhwanderland.link"
+msgid "ch.swisstopo.schneeschuhwandern.link"
 msgstr "Lien"
 
 msgid "ch.swisstopo.scnat"
